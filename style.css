@@ -1,0 +1,58 @@
+:root {
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Grey-500: hsl(234, 12%, 34%);
+--Grey-400: hsl(212, 6%, 44%);
+--White: hsl(0, 0%, 100%);
+--Fuente : 'Poppins'
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--Fuente);
+    color: var(--Grey-500);
+    display: flexbox;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.less {
+    font-weight: 200;
+    grid-column: 2;
+    margin: 0 auto;
+}
+
+.important {
+    font-weight: 600;
+    grid-column: 2;
+    margin: 0 auto;
+}
+
+.mission {
+    font-weight: 400;
+    grid-column: 2;
+    margin: 1rem auto;
+}
+
+
+/*POSICIONAMIENTO*/
+.contenedor__descripcion {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 3rem;
+
+}
